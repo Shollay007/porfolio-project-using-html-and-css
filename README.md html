@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="style.css"
+ 
+</head>
+
+<body>
+
+     <!.. NAVBAR ..>
+         <nav>
+            <div class="left">
+                <a href="/">Adepoju portfolio</a>
+            </div>
+
+            <div class="right">
+                <a href="http://github.com" target="_blank" rel="noopener no-referrer">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                </a>
+
+                 <a href="http://linkedin.com" target="_blank" rel="noopener no-referrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>Linkedin</span>
+                 </a>
+                 
+                  <a href="mailto:adepojuade007@gmail.com" target="_blank" rel="noopener no-referrer"> 
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                  </a>    
+            </div>
+         </nav>
+
+    <main>
+         <!.. Section 1: Harlosh ..>
+         <section class="aboutme">
+          <div class="text">
+            <h2>Adepoju Adeshola</h2>
+            <p>i am an Aspiring web developer,looking to transition fully to a tech job. I am still learning and would like an intership where i can keep learning and working. This is a small project i decided to build to show to an hiring manager. i look forward to this journey.</p>
+          </div>
+
+            <div class="headshot">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQHQlah8b6EC_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668324126288?e=2147483647&v=beta&t=_JbX4Yxb170efNgFFl9mTcVgUGUmthyAfhscGYmSkXk" alt="Adepoju Adeshola"
+            </div>
+         </section>
+
+         <!.. Section 2: skills ..>
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+              I have basic skils in Html, Css and Javascript. This project is a showcase of my html and css skills. The goal is to show a resposnive website on both larger and smaller screen depending on users screen.  I woud like the role of an intern or junuior developer to keep improving my skill set. 
+            </div>
+
+         </section>
+
+          <!.. Section 3: Testimony ..>
+          <section id="Testimony" class="Testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHQlah8b6EC_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668324126288?e=2147483647&v=beta&t=_JbX4Yxb170efNgFFl9mTcVgUGUmthyAfhscGYmSkXk">
+                    <p>Adepoju Adeshola</p>
+                    <p>Bank Manager</p>
+                </div>
+
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad animi ea, rerum nihil laudantium ullam deleniti architecto voluptas voluptate sequi quod dolor repellendus aliquid velit corporis ipsum cupiditate nam voluptatem.
+                </div>
+            </div>
+          </section>
+
+          <!.. Section 4: Contact ..>
+          <section id="Contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+              <div class="text">
+                Kindly consider Mr Adepoju for a role of a junior front end developer or for an internship in your establishment.
+              </div>
+              <form>
+                <label form="Name">Name</label>
+                <input type="text" id="name">
+
+                <label form="email">Email</label>
+                <input type="email" id="email">
+
+                <label form="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+           
+    </main>
+</body>
+</html>
